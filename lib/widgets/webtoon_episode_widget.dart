@@ -16,7 +16,8 @@ class WebtoonEpisode extends StatelessWidget {
     // final url = Uri.parse('https://google.com');
     // await launchUrl(url);
     await launchUrlString(
-        'https://comic.naver.com/webtoon/detail?titleId=$webtoonId&no=${episode.id}');
+      'https://comic.naver.com/webtoon/detail?titleId=$webtoonId&no=${episode.id}',
+    );
   }
 
   @override
